@@ -38,7 +38,13 @@ section {
 
 footer {
     font: var(--fonte-principal);
+    text-align: center;
     color: var(--branco);
     font-size: 14px;
     margin-top: 1em;
+}
+
+div {
+    text-align: center;
+    padding: .5em;
 }
