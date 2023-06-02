@@ -11,14 +11,20 @@
     <header>Verificador de idade</header>
     <section>
         <div>
-            <input type="number" name="numeroano" id="ano_de_nascimento" class="ano_de_nascimento" min="0" placeholder=" Ano de nascimento">
+            <p>
+                <input type="number" name="numeroano" id="ano_de_nascimento" class="ano_de_nascimento" min="0" placeholder=" Ano de nascimento">
+            </p>
+            
             <p>Sexo:
                 <input type="radio" name="radiosexo" id="masculino" checked>
                 <label for="masculino">Masculino</label>
                 <input type="radio" name="radiosexo" id="feminino">
                 <label for="feminino">Feminino</label>
             </p>
-            <input class="verificar" type="button" value="Verificar">
+
+            <p>
+                <input type="button" value="Verificar" onclick="Verificar()" class="verificar" >
+            </p>
         
         </div>
         <div id="resultado">
@@ -28,6 +34,6 @@
     <footer>
         &copy;anaclaracaldeira;
     </footer>
-    <script src="main.js"></script>
+    <script src="/Exercício02/main.js"></script>
 </body>
 </html>
