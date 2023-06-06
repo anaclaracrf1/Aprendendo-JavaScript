@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-    --azul-fundo: cadetblue;
+    --azul-fundo: rgb(95, 158, 160);
     --branco: #f0f0f0;
     --cinza-escuro: #424141;
     --azul-verde-escuro: #285c58;
