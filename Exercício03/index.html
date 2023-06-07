@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="/Exercício03/style.css">
     <title>Tabuada</title>
 
-    <link rel="shortcut icon" href="/imagens/Icon_verificador.svg" type="imagens/Icon_verificador">
+    <link rel="shortcut icon" href="/imagens/icon_tabuada.svg" type="imagens/icon_tabuada">
 </head>
 <body>
     <header>Tabuada</header>
     <section>
-        <div>
-      
+        <div class="numero">
+
+            <p class="frase_input">Você deseja saber a tabuada de que número?</p>
+            <input type="number" name="number" id="numero_desejado" class="numero_desejado" placeholder="número">
+
         </div>
-        <div id="resultado">
-           oi
+        <div class="resultado">
+
+           <input type="button" value="Calcular" onclick="Calcular()" id="resultado">
+
         </div>
     </section>
     <footer>
