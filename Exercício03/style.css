@@ -2,10 +2,10 @@
 
 :root {
     --azul-fundo: #203538;
-    --branco: #f0f0f0;
+    --branco: #f8f8f8;
     --cinza-escuro: #434242;
     --azul-verde-escuro: #285c58;
-    --cinza-claro: #f8f8f8;
+    --cinza-claro: #b3b0b0;
 }
 
 html {
@@ -55,15 +55,19 @@ div {
     padding: 0;
 }
 
-#resultado {
+#botão_calcular {
     font-size: 12px;
     padding: .2em;
     border-radius: .5em;
 }
 
-#resultado:active {
+#botão_calcular:active {
     background-color: var(--cinza-escuro);
-    color: var(--branco);
+    transform: scale(1.05);
+}
+
+#botão_calcular:hover {
+    background-color: var(--cinza-claro);
 }
 
 .frase_input {
@@ -77,6 +81,7 @@ div {
     color: var(--cinza-escuro);
 }
 
-.numero_desejado:active {
+.numero_desejado:active, .numero_desejado:hover {
     background-color: var(--cinza-claro);
+    transform: scale(1.05);
 }
