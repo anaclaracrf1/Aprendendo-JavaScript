@@ -1,18 +1,16 @@
-let número = document.getElementById('numero_desejado')
-let resultado = document.getElementById('resultado')
-var botão_calcular = document.getElementById('botão_calcular')
+  function Calcular() {
+    var numero = document.getElementById('numero_desejado')
+    var resultado = document.getElementById('resultado')   
 
-// function Calcular() {
-//     if (número.value.length == 0){
-//         window.alert('Número inválido. Digite um número maior que 0')
-//     }else {
-//         let numero_convertido = Number(número.value)
-//         let contador = 1 
-//         for (contador = 1; contador == 10; contador++){
-//             var calculo = String(contador) + "x" numero_convertido.value "=" Number(contador*número);
+    if (Number(numero.value.length) == 0){
+         window.alert('Número inválido. Digite um número maior que 0')
+    }else if (Number(numero.value) > 0) {
+        resultado.innerHTML = ''; 
 
-//             resultado.innerText = calculo
+       for (var contador = 1; contador <= 10; contador++){
             
-//         }
-//     }
-// }
+            resultado.innerHTML += contador + "x" + Number(numero.value) + "=" + Number(contador*numero.value) + "<br>"
+        }
+    }
+
+}
