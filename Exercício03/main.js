@@ -1,6 +1,6 @@
   function Calcular() {
-    var numero = document.getElementById('numero_desejado')
-    var resultado = document.getElementById('resultado')   
+    let numero = document.getElementById('numero_desejado')
+    let resultado = document.getElementById('resultado')   
 
     if (Number(numero.value.length) == 0){
          window.alert('Número inválido. Digite um número maior que 0')
